@@ -92,9 +92,78 @@
         <div id="container-profile">
 
             <div class="col-md-12 col-lg-6 col-lg-offset-3 ">
-				<div class="logo"><img src="images/logo.png" class="user-logo"></div>
-		                      <ul class="nav nav-tabs text-center clearfix material" role="tablist">
+		<a class="" href="http://www.myhealth.us/" target="_blank"><img class="new-logo mobile-hide" src="images/logo-v1.png"  alt=""></a>
+		<a class="" href="http://www.myhealth.us/" target="_blank"><img class="new-logo desktop-hide" src="images/logo.png"  alt=""></a>
+		      
+				<div id="mySidepanel" class="sidepanel">
+
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				 
+  		                      <ul class="nav nav-tabs text-center clearfix material " role="tablist">
+  		                  <li class="active ">
+					    
+  		                      <a id="view_all" data-flag="1" class="tab_selection  all_info_pin" data-short=" All Info" data-text=" All Info" href="https://mr1.us/#all" role="tab" data-toggle="tab">All Info</a>
+  		                  </li>            <li class="">
+  		                      <a data-flag="2" data-pin_section="pin_check_em" class="tab_selection  pin" data-short="Contacts" data-text="Contacts" href="https://mr1.us/#emergency" role="tab" data-toggle="tab" id="em_contacts_pin">Contacts</a>
+  		                  </li>
+  		                  <li class="">
+  		                      <a data-flag="3" data-pin_section="pin_check_other" class="tab_selection  pin" data-short="Medical Information" data-text="Medical Information" href="https://mr1.us/#medical" role="tab" data-toggle="tab" id="medical_pin">Medical Information</a>
+  		                  </li>
+  		                  <li class="">
+  		                      <a data-flag="4" data-pin_section="pin_check_personal" class="tab_selection pin " data-short="Personal" data-text="Personal" href="https://mr1.us/#personal" role="tab" data-toggle="tab" id="personal_pin">Personal</a>
+  		                  </li>
+  		                  <li class="">
+  		                      <a data-flag="5" data-pin_section="pin_check_file" class="tab_selection  pin" data-short="Files" data-text="Files" href="https://mr1.us/#files" role="tab" data-toggle="tab" id="files_pin">Files</a>
+  		                  </li>
+  		                  <li class="">
+  		                      <a data-flag="6" data-pin_section="pin_check_diary" class="tab_selection  pin" data-short="Diary" data-text="Diary" href="https://mr1.us/#diary" role="tab" data-toggle="tab" id="diary_pin">Diary</a>
+  		                  </li>
+  		                  <li class="">
+  		                      <a data-flag="7" data-pin_section="pin_check_photos" class="tab_selection  pin" data-short="Photos" data-text="Photos" href="https://mr1.us/#photos" role="tab" data-toggle="tab" id="photos_pin">Photos</a>
+  		                  </li>
+  		                  <li class="">
+  		                      <a data-flag="8" data-pin_section="pin_check_doctors" class="tab_selection  pin" data-short="Doctors" data-text="Doctors" href="https://mr1.us/#doctors" role="tab" data-toggle="tab" id="doctors_pin">Doctors</a>
+  		                  </li>
+  		                  <li class="">
+  		                      <a data-flag="9" data-pin_section="pin_check_reminders" class="tab_selection  pin" data-short="Reminders" data-text="Reminders" href="https://mr1.us/#reminders" role="tab" data-toggle="tab" id="reminders_pin">Reminders</a>
+  		                  </li>
+  		                  <li class="">
+  		                      <a data-flag="10" data-pin_section="" class="tab_selection " data-short="Help" data-text="Help" href="https://mr1.us/#help" role="tab" data-toggle="tab">Help</a>
+  		                  </li>
+  				    <li>
+  					    <form action="https://mr1.us/" method="post" id="language_entry_form-user" name="language_entry">
+  					        <img height="22px;" style="margin-top:-1px;" src="./asset/globe-icon.png" alt="Globe_Icon">
+  					        <select name="default" id="language_entry">
+  					                    <option value="English" selected="">English</option>
+  										<option value="Chinese">中文</option>
+  										<option value="Spanish">Español</option>
+  										<option value="Bengali">বাংলা</option>
+  										<option value="Hindi">हिंदी</option>
+  										<option value="Arabic">العربية</option>
+  										<option value="Japanese">日本</option><option value="Portuguese">Português</option><option value="Russian">Pусский</option><option value="French">Français</option><option value="Germany">Deutsch</option><option value="Korean">한국어</option>
+                    
+  					                    <option value="English">English</option>
+  					                    <option value="Chinese">Chinese</option>
+  					                    <option value="Spanish">Spanish</option>
+  					                    <option value="Bengali">Bengali</option>
+  					                    <option value="Hindi">Hindi</option>
+  					                    <option value="Arabic">Arabic</option>
+  					                    <option value="Japanese">Japanese</option>
+  					                    <option value="Portugese">Portugese</option>
+  					                    <option value="Russian">Russian</option>
+  					                    <option value="French">French</option>
+  					                    <option value="Germany">German</option>
+  					                    <option value="Korean">Korean</option>-->
+  					                </select>&nbsp;&nbsp;&nbsp;&nbsp;
+  					    </form>
+  				    </li>
+  				    
+  		              </ul>
+				</div>
+				
+		                      <ul class="nav nav-tabs text-center clearfix material mobile-hide" role="tablist">
 		                  <li class="active ">
+					    
 		                      <a id="view_all" data-flag="1" class="tab_selection  all_info_pin" data-short=" All Info" data-text=" All Info" href="https://mr1.us/#all" role="tab" data-toggle="tab">All Info</a>
 		                  </li>            <li class="">
 		                      <a data-flag="2" data-pin_section="pin_check_em" class="tab_selection  pin" data-short="Contacts" data-text="Contacts" href="https://mr1.us/#emergency" role="tab" data-toggle="tab" id="em_contacts_pin">Contacts</a>
@@ -107,7 +176,7 @@
 		                  </li>
 		                  <li class="">
 		                      <a data-flag="5" data-pin_section="pin_check_file" class="tab_selection  pin" data-short="Files" data-text="Files" href="https://mr1.us/#files" role="tab" data-toggle="tab" id="files_pin">Files</a>
-		                  </li>
+		                  </li><br>
 		                  <li class="">
 		                      <a data-flag="6" data-pin_section="pin_check_diary" class="tab_selection  pin" data-short="Diary" data-text="Diary" href="https://mr1.us/#diary" role="tab" data-toggle="tab" id="diary_pin">Diary</a>
 		                  </li>
@@ -150,11 +219,26 @@
 					                </select>&nbsp;&nbsp;&nbsp;&nbsp;
 					    </form>
 				    </li>
+				    
 		              </ul>
+				<div class="desktop-hide">
+					<button class="openbtn" onclick="openNav()">☰</button>
+				</div>
+				
                  
 
- 
+<script>
 
+ //menu by Raj //
+      function openNav() {
+        document.getElementById("mySidepanel").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+      }
+ 
+</script>
 
 <div class="row"></div>
 <div class="text-center">
@@ -6179,6 +6263,8 @@ alert("Default Language Has Been Changed To "+lang);
                             });
                         });
                     });
+		      
+		      
                 </script>
                 <div class="row gap5y"></div>
             </div>
